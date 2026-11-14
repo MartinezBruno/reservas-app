@@ -12,7 +12,7 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/node": "^26.6.6",
+    "@types/node": "^24",
     "tsup": "^9.0.0",
     "tsx": "^4.23.15"
   },
