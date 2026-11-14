@@ -1,0 +1,23 @@
+{
+  "name": "@reservas/api",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsup src/server.ts --format esm --clean --no-external @reservas/shared",
+    "start": "node dist/server.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsup": "^9.0.0",
+    "tsx": "^4.23.15"
+  },
+  "dependencies": {
+    "@reservas/shared": "workspace:*",
+    "fastify": "^5.12.8"
+  }
+}

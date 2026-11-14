@@ -1,0 +1,9 @@
+{
+  "name": "@reservas/web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "private": true
+}
