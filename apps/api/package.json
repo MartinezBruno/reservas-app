@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "tsup src/server.ts --format esm --clean --no-external @reservas/shared",
+    "build": "tsup",
     "start": "node dist/server.js",
     "typecheck": "tsc --noEmit"
   },

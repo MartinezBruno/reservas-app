@@ -5,4 +5,4 @@ export const healthRespSchema = z.object({
   timestamp: z.iso.datetime(),
 });
 
-export type healthResponse = z.infer<typeof healthRespSchema>;
+export type HealthResponse = z.infer<typeof healthRespSchema>;
